@@ -1,0 +1,83 @@
+# Build directories
+build/
+build_*/
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.ilk
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files and directories
+test_videos/
+thumbnails/
+*.db
+*.db-shm
+*.db-wal
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Test executables
+test_*.exe
+verify_*.exe
+
+# Large test files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Chinese test directories
+中文测试目录/
+batch_test_videos/
+
+# Documentation that might contain sensitive info
+*测试*.md
+*指南*.md
+*报告*.md
